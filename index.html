@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Break Out</title>
+</head>
+<body>
+    <h1>Breakout!</h1>
+    <button id="toggle-music-button">Music toggle</button>
+
+
+
+    <!-----Button to Show rules-->
+   <button id="rules-btn" class="btn rules-btn">Show Rules</button>
+
+ 
+   
+   <!-----Div for the rules---->
+   <div id="rules" class="rules">
+<!----How to play within the div-->
+    <h2>How to play: </h2>
+    <p>Use your left and your right keys to move the paddle to bounce the ball up and down and break blocks</p>
+    <p>If you miss the ball, your score and the ball will reset</p>
+    <p>You can also use the Arrow up button to stop the music</p>
+
+    <button id="close-btn" class="btn">Close</button> <!--Close btn-->
+   </div>
+
+
+
+
+
+   <canvas id="canvas" width="800" height = "600"></canvas>
+
+   
+   <audio id="bg-music" loop autoplay>
+    <source src="fsm-team-over-the-ocean.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  
+  
+
+    <script src="Script.js"></script>
+</body>
+</html>
