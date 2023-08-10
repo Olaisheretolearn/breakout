@@ -1,6 +1,7 @@
 # Breakout Clone 🕹️
 
 Experience the classic arcade sensation with our Breakout Clone game! Keep the ball bouncing and break through layers of bricks. How high can your score go?
+live preview at https://retrobreakout.netlify.app/
 
 ## Description
 
